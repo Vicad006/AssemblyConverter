@@ -73,32 +73,3 @@ Usage:
 Example usage:
   ./AssemblyConverter.pl -s human -f data_to_map.txt -v GRCh37Usage
 
-
-
-
-Alternatives:
------------------------------------------------------------------------------
-1.) Ensembl Assembly Converter Online Tool
-http://www.ensembl.org/Homo_sapiens/Tools/AssemblyConverter
-
-Advantages :It allows user to input data in various File formats
-            No need for user to install any dependencies (perl, e.t.c)
-            More user friendly
-            Several users can use it at thesame time
-
-
-UCSC liftOver tool: This is accessible via a simple web interface or it can be downloaded as a standalone executable.
-
-NCBI Remap : This tool is conceptually similar to liftOver in that in manages conversions between a pair of genome assemblies but it uses different methods to achieve these mappings. It is also available through a simple web interface or you can use the API for NCBI Remap.
-
-The Ensembl Rest API. 
-
-Bioconductor rtracklayer package. For R users, Bioconductor has an implementation of UCSC liftOver in the rtracklayer package. To see documentation on how to use it, open an R session and run the following commands.
-
-CrossMap: This is standalone open source program for convenient conversion of genome coordinates (or annotation files) between different assemblies. It supports most commonly used file formats including SAM/BAM, Wiggle/BigWig, BED, GFF/GTF, VCF. CrossMap is designed to liftover genome coordinates between assemblies. It’s not a program for aligning sequences to reference genome. Not recommended for converting genome coordinates between species.
-
-Flo : This A liftover pipeline for different reference genome builds of the same species. It describes the process as follows: "align the new assembly with the old one, process the alignment data to define how a coordinate or coordinate range on the old assembly should be transformed to the new assembly, transform the coordinates."
-
-Picard Liftover VCF : This Lifts over a VCF file from one reference build to another. This tool adjusts the coordinates of variants within a VCF file to match a new reference. The tool is based on the UCSC liftOver and uses a UCSC chain file to guide its operation.
-
-
