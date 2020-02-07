@@ -8,7 +8,7 @@
 	#												  ####
 	# INSTALLLING ENSEMBL PERL API Guide: http://www.ensembl.org/info/docs/api/api_installation.html  ####
 	#												  ####
-	# ANGULAR APP OF THIS ASSEMBLY CONVERSION TOOL CAN BE ACCESSED AT: ...				  ####
+	# ANGULAR APP OF THIS ASSEMBLY CONVERTER: http://ec2-52-56-195-5.eu-west-2.compute.amazonaws.com  ####
 	#												  ####
 	# PROGRAM WRITTEN BY OLUWASEUN VICTORIA MOSAKU							  ####
 	#												  ####
