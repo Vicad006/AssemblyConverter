@@ -37,7 +37,7 @@ Description of Command Options:
   ./AssemblyConverter.pl --help
 
 The expected data format is the same as the output of the name() method on a Slice object: coord_system:version:seq_region_name:start:end:strand
-For example: chromosome:chromosome:GRCh38:10:25000:30000:1
+For example: chromosome:GRCh38:10:25000:30000:1
 
 Mappings are available for chromosomes to any valid assembly version, either from old assemblies to the latest assembly, or betweenold assemblies or from the latest assembly.
 If the strand is missing, the positive ("1") strand will be used. If the start is missing, it is taken to be "1".  If the end is missing, it is taken to be the end of the seq_region.
