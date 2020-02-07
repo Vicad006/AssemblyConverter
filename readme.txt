@@ -6,7 +6,7 @@ A Perl Script that uses Ensembl API to map Assembly Coordinates from one version
 
 Dependencies:
 ----------------------------------------------------------------------------------------
-1.) Ensure you have PERL5 installed
+1.) Ensure you have PERL5LIB installed
 2.) You must have Ensembl Perl API installed on the machine, you can install Ensembl API using any of the 3 options below:
 	i.) Instructions on installing Ensembl API can be found here: http://www.ensembl.org/info/docs/api/api_installation.html
 	ii.) Video tutorial on how to install the Ensembl API can be found here: https://www.youtube.com/watch?v=nxTFcKi1nDw. 
